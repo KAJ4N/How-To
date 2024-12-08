@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const howToList = document.querySelector(".how-to-list ul");
-
-    // Example data: Replace this array with data fetched from an API or a backend
     const exampleQueries = [
         "How to cook pasta?",
         "How to lose weight?",
@@ -101,8 +99,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "How to draw animals?",
         "How to make tea?"
     ];
-
-    // Populate the list
     exampleQueries.forEach(query => {
         const listItem = document.createElement("li");
         listItem.textContent = query;
